@@ -1,12 +1,5 @@
-function component() {
-  const element = document.createElement('div');
+import { fillTest } from "./test";
+// eslint-disable-next-line no-unused-vars
+import styles from './main.css';
 
-  // Lodash, currently included via a script, is required for this line to work
-  //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.innerHTML = "hello world!";
-  return element;
-
-
-}
-
-document.body.appendChild(component());
+fillTest();
